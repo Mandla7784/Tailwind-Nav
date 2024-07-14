@@ -14,28 +14,35 @@
     ></script>
     <script src="https://cdn.tailwindcss.com"></script>
   </head>
-  <body>
-    <nav
-      class="flex gap-2 justify-between px-4 w-full align-center py-4 bg-[#10141d] text-white"
-    >
-      <h3 class="font-bold">Dashboard</h3>
+  <body class="bg-[#0d1117]">
+  <nav
+  class="flex gap-2  justify-between px-4 w-full items-center py-4 bg-white"
+>
+  <h3 class="font-bold">Dashboard</h3>
 
-      <div
-        class="flex align-centergap-2 px-2 jusify-between p-2 rounded-md bg-[#2d313b]"
-      >
-        <ion-icon name="search-outline"></ion-icon>
-        <input
-          class="bg-[#2d313b] outline-none"
-          type="text"
-          placeholder="Search"
-        />
-      </div>
-      <div class="flex gap-2 justify-between align-items-center">
-        <button class="bg-none">
-          <ion-icon name="moon-outline"></ion-icon>
-        </button>
-        <ion-icon name="alarm-outline"></ion-icon>
-      </div>
-    </nav>
+  <div
+    class="search bg-white shadow-md flex gap-2 items-center px-2 p-2 rounded-md"
+  >
+    <ion-icon class="text-xl" name="search-outline"></ion-icon>
+    <input class="outline-none" type="text" placeholder="Search" />
+  </div>
+
+  <div class="flex gap-2 items-center">
+    <button class="bg-none">
+      <ion-icon class=" text-xl" name="moon-outline"></ion-icon>
+    </button>
+    <ion-icon class=" text-xl" name="alarm-outline"></ion-icon>
+  </div>
+  <div class="flex gap-2 items-center">
+    <img class="rounded-full w-10 h-10" src="Elizaveta.png" />
+    <div>
+      <h2 class="text-white font-bold">Mandla Dyonase</h2>
+      <p class="text-xs text-gray-400">marsatti7784@gmail.com</p>
+    </div>
+  </div>
+</nav>
+
+
+    </script>
   </body>
 </html>
