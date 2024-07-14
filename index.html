@@ -15,12 +15,27 @@
     <script src="https://cdn.tailwindcss.com"></script>
   </head>
   <body>
-    <header>
-      <h3>Dashboard</h3>
+    <nav
+      class="flex gap-2 justify-between px-4 w-full align-center py-4 bg-[#10141d] text-white"
+    >
+      <h3 class="font-bold">Dashboard</h3>
 
-      <div>
-        <input type="text" placeholder="Search" />
+      <div
+        class="flex align-centergap-2 px-2 jusify-between p-2 rounded-md bg-[#2d313b]"
+      >
+        <ion-icon name="search-outline"></ion-icon>
+        <input
+          class="bg-[#2d313b] outline-none"
+          type="text"
+          placeholder="Search"
+        />
       </div>
-    </header>
+      <div class="flex gap-2 justify-between align-items-center">
+        <button class="bg-none">
+          <ion-icon name="moon-outline"></ion-icon>
+        </button>
+        <ion-icon name="alarm-outline"></ion-icon>
+      </div>
+    </nav>
   </body>
 </html>
