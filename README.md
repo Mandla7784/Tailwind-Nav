@@ -1,4 +1,4 @@
-# Tailwind css
+# Tailwind Navbar 
 
 Welcome to Tailwind navigation bar, search bar and theme changer.
 
